@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.nav-brand{
+    font-family: monospace; 
+    font-weight: bolder; 
+    color: #544013;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0px 10px;
+}
+
+.homepage{
+    background-color: #EDE9DD;
+    max-width: 100%;
+   min-height: 100vh;
+}
+
+.nav-item{
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: bolder; 
+    color: #544013;
+    text-decoration: none;
+    font-size: 28px;
+    margin: 10px;
+}
+.row .header{
+    margin-top: 10px;
+}
+.homeHeading{
+  color: #AF8016;
+  
+}
+.homeParagraphy{
+    color:#544013;
+}
+
+#homeImage{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+.MenuCart{
+    background-color: #d6d0be;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.price{
+    
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: bolder; 
+    color: #544013;
+    font-weight: bold;
+}
+
+
+.aboutUs{
+    background-color: #85827c;
+    width: 100%;
+   min-height: 80vh;
+}
+.aboutUsHeading{
+    color: white;
+    text-decoration:underline;
+    text-align: center;
+}
+
+.aboutParagraph{
+    color:white;
+    font-size: 20px;
+    line-height: 1.8;
+    margin-left: 20px;
+}
+
+.aboutUsImage{
+    max-width: 100%;
+    height: auto;
+    border: 10px;
+
+}
+.SubHeadingAbout{
+    display: block;
+    font-size:22px;
+    font-weight: 500;
+  }
+
+/* @media(min-width:576){
+    .aboutUsImage{
+        width: ;
+    }
+} */
+ 
+
+
+
+
+/* try menucard with flex */
+.card-Menu{
+    width: 100%;
+    max-height:auto;
+    background-color:#eee5cd;
+    /* overflow: hidden; */
+   
+}
+
+ .card-Heading{
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: bolder; 
+    color: #544013;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+} 
+.card{
+    width:100%;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+   
+}
+.cardTitle{
+    color: #544013;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.card-image-top{
+    max-width: 100%;
+    height: 200px;
+   border-radius: 10px;
+  
+}
+.card-text{
+    color: #544013;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.btn.btn-primary{
+    margin: 0;
+    background-color:#b38e3a;
+    color:white;
+    font-weight: bolder;
+    font-size: 19px;
+    border: 0;
+}
+
+.card img{
+    max-width: 100%;
+    height: 200px;
+    display: block;
+}
+
+.card-Container{
+    max-width: 100%;
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media (min-width:576px){
+    .card{
+        padding: 10px;
+    }
+}
+
+@media(min-width:768px){
+    .aboutUsImage{
+        width: 100%;
+    }
+
+    #homeImage{
+        width: 100%;
+    }
+}
+
+.collectionOfCustomer{
+    background-color:#EDE9DD;
+    width: 100%;
+    height: auto;
+}
+
+.card-Heading1{
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: bolder; 
+    color: #544013;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.collectionText{
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: 200; 
+    color: #544013;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px; 
+}
+
+
+
+/* blog */
+.blog{
+
+  background-color: #eee5cd;
+  width: 100%;
+  min-height: 80vh;
+}
+.blogHeading{
+    color:#544013;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.blogSubHeading{
+    color:#544013;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.blogtext{
+    color:#544013;
+    font-size: 20px;
+}
+
+.blogSubPara{
+    color:#544013;
+    font-size: 25px;
+    font-weight: 600;
+   
+}
+
+/* wholesalecontent */
+.wholesaleContent{
+    width: 100%;
+    height: 100vh;
+    background-color: #d3a53a;
+    
+}
+
+.wholeSaleHeader{
+   margin-top: 20px;
+   font-size:30px;
+   font-weight: bold;
+
+}
+.wholesaleText{
+    margin-top: 30px;
+    margin-left: 20px;
+    line-height: 2.2;
+}
+
+#wholeSalebtn{
+    background-color: rgb(100, 5, 100);
+    color: white;
+}
+
+.wholeSaleImage{
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+    
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #ece2e2;
+}
